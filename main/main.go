@@ -1,8 +1,10 @@
 package main
 
-import "github.com/jonas27/a-star/maze"
+import (
+	"github.com/jonas27/a-star/astar"
+)
 
 func main() {
 	//maze.CreateObjectsMap()
-	maze.Init(7, 7, nil)
+	astar.Init(0, 7, 7)
 }
