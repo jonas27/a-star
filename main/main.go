@@ -1,10 +1,11 @@
 package main
 
-import (
-	"github.com/jonas27/a-star/astar"
-)
+import "fmt"
 
 func main() {
 	//maze.CreateObjectsMap()
-	astar.Init(0, 7, 7)
+	//astar.Init(0,0, 7, 7)
+	var c int
+	fmt.Scan("%d", &c)
+	fmt.Println(c)
 }

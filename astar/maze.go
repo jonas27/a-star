@@ -9,7 +9,9 @@ type Object struct {
 	Cost      int
 	Score     int
 	Distance  int
-	neighbors []*Object
+	Option    string
+	Option2   string
+	Neighbors []*Object
 }
 
 type Maze struct {
